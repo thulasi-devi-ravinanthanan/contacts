@@ -90,21 +90,23 @@ func TestGormrepo(t *testing.T) {
 	}
 	t.Logf("Update was prevented with an error: %v", err)
 
-	t.Log("Testing Delete...")
-	err = g.Delete(&c1)
-	if err != nil {
-		t.Fatalf("Could not delete: %v", err)
-	}
+	/*
+		t.Log("Testing Delete...")
+		err = g.Delete(&c1)
+		if err != nil {
+			t.Fatalf("Could not delete: %v", err)
+		}
 
-	t.Log("Testing non-existant get...")
-	_, err = g.Get(c1.Id)
-	if err == nil {
-		t.Fatal("Get succeded for a non-existant id")
-	}
-	t.Logf("Error returned was: %v", err)
+		t.Log("Testing non-existant get...")
+		_, err = g.Get(c1.Id)
+		if err == nil {
+			t.Fatal("Get succeded for a non-existant id")
+		}
+		t.Logf("Error returned was: %v", err)
 
-	err = g.Delete(&c2)
-	if err != nil {
-		t.Fatalf("Could not delete: %v", err)
-	}
+		err = g.Delete(&c2)
+		if err != nil {
+			t.Fatalf("Could not delete: %v", err)
+		}
+	*/
 }
