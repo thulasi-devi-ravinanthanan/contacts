@@ -3,7 +3,7 @@ package filerepo
 import (
 	"os"
 
-	"github.com/rajch/contacts/pkg/contact"
+	"github.com/thulasi-devi-ravinanthanan/contacts/pkg/contact"
 )
 
 type Filerepo struct {

@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"github.com/rajch/contacts/pkg/contact"
-	"github.com/rajch/contacts/pkg/gormrepo"
+	"github.com/thulasi-devi-ravinanthanan/contacts/pkg/contact"
+	"github.com/thulasi-devi-ravinanthanan/contacts/pkg/gormrepo"
 )
 
 func TestGormrepo(t *testing.T) {

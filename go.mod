@@ -1,4 +1,4 @@
-module github.com/rajch/contacts
+module github.com/thulasi-devi-ravinanthanan/contacts
 
 go 1.16
 

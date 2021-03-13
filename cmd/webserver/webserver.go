@@ -4,8 +4,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/rajch/contacts/pkg/contact"
-	"github.com/rajch/contacts/pkg/gormrepo"
+	"github.com/thulasi-devi-ravinanthanan/contacts/pkg/contact"
+	"github.com/thulasi-devi-ravinanthanan/contacts/pkg/gormrepo"
 )
 
 func main() {

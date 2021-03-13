@@ -3,7 +3,7 @@ package gormrepo
 import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"github.com/rajch/contacts/pkg/contact"
+	"github.com/thulasi-devi-ravinanthanan/contacts/pkg/contact"
 )
 
 type Gormrepo struct {
